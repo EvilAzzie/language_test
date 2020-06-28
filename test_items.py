@@ -4,7 +4,7 @@ from selenium import webdriver
 
 
 class TestPage():
-    def test_basket(self,browser):
+    def test_basket_button(self,browser):
         url="http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/"
         browser.get(url)
         button=None
